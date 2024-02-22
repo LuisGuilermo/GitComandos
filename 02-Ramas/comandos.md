@@ -1,29 +1,29 @@
-# Comando para listar las ramas
+# Commands for list the branchs
 
 -   git branch
 
-# Comando para crear una nueva rama
+# Commands for create a new branchs 
 
 -   git branch "nombre_rama"
 
-# Comando para eliminar una rama
+# Commands for delete a branch
 
 -   git branch -D "nombre_rama"
 
-# Comando para cambiar de ramas
+# Command for change the branch
 
 -   git checkout "nombre_rama"
 -   git switch "nombre_rama"
 
-# Comando para unir ramas
+# Command for join the branch
 
 -   git merge "nombre_rama"
 
-# Desvincular un archivo de git que se le estaba dando seguimiento
+# Discconed a file of git
 
 -   git rm --cached "nombre_archivo"
 
-# Crear una nueva versión con archivos que ya se estaban dando seguimiento
+# Create a new version with file
 
 -   git commit -am "nombre commit"
 
