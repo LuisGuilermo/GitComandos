@@ -14,11 +14,11 @@
 -   git config --global user.email
 -   git config --list
 
-# Comando para inicializar git en un directorio
+# Commands for start git in a direct
 
 -   git init
 
-# Comando para ver el estado de los archivos
+# Commands for view the state of files
 
 -   git status
 
@@ -29,15 +29,20 @@
 
 # Pasos para crear una versión de mi código
 
-# Agregar cambios
+# add changes
 
 -   git add . (si se quiere agregar solo un archivo git add \*.js - homa.html)
 
-# Comprometer los archivos
+# Commit of files
 
 -   git commit -m "Descripción del commit"
 
-# Comandos para cambiar de versión del proyecto
+# Commands for change the version of project
 
 -   git checkout "ID de la última versión"
 -   git checkout --.
+
+
+# Commands for edit config global of git
+
+- git config --global --edit
